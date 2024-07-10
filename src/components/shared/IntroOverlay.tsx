@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback } from 'react';
+import { useEffect, useState } from 'react';
 import { Box, Button, Flex, Text, keyframes, Image } from "@chakra-ui/react";
 import { ConnectButton } from "thirdweb/react";
 import { client } from "@/consts/client";
@@ -41,6 +41,10 @@ const glitch = keyframes`
 `;
 
 const IntroOverlay = ({ onClose }: { onClose: () => void }) => {
+  useEffect(() => {
+    localStorage.setItem('introShown', 'true');
+  }, []);
+
   return (
     <Box
       position="fixed"

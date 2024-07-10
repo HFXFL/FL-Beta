@@ -1,8 +1,8 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Box, keyframes } from "@chakra-ui/react";
-import IntroOverlay from '@/components/shared/IntroOverley';
+import IntroOverlay from '@/components/shared/IntroOverlay';
 
 const fadeIn = keyframes`
   from { opacity: 0; }
@@ -10,7 +10,15 @@ const fadeIn = keyframes`
 `;
 
 export default function Home() {
-  const [showOverlay, setShowOverlay] = useState(true);
+  const [showOverlay, setShowOverlay] = useState(false);
+
+  useEffect(() => {
+    const introShown = localStorage.getItem('introShown');
+    if (!introShown) {
+      setShowOverlay(true);
+      localStorage.setItem('introShown', 'true');
+    }
+  }, []);
 
   const handleOverlayClose = () => {
     setShowOverlay(false);
@@ -21,7 +29,7 @@ export default function Home() {
       {showOverlay && <IntroOverlay onClose={handleOverlayClose} />}
       <HeroBanner />
       <Box py={20} textAlign="center">
-        {/* Your main content goes here */}
+        {/* add stuff */}
       </Box>
     </Box>
   );

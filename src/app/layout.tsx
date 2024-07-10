@@ -5,8 +5,8 @@ import Navbar from "@/components/shared/Navbar";
 import { ThirdwebProvider } from "thirdweb/react"; //needed?
 
 export const metadata: Metadata = {
-  title: "thirdweb SDK + Next starter",
-  description: "Starter template for using thirdweb SDK with Next.js App router",
+  title: "Film-Legion Beta",
+  description: "This is just the begining...",
 };
 
 export default function RootLayout({
