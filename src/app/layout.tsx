@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import { Providers } from "@/components/shared/Providers";
 import Navbar from "@/components/shared/Navbar";
+import { ThirdwebProvider } from "thirdweb/react"; //needed?
 
 export const metadata: Metadata = {
   title: "thirdweb SDK + Next starter",

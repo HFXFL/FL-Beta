@@ -23,18 +23,23 @@ const Navbar = () => {
           mr={4}
         />
         <Link href="/">
-          <Button colorScheme={pathname === "/" ? "teal" : "gray"} variant="ghost">
+          <Button colorScheme={pathname === "/" ? "purple" : "gray"} variant="ghost">
             Home
           </Button>
         </Link>
-        <Link href="/about">
-          <Button colorScheme={pathname === "/about" ? "teal" : "gray"} variant="ghost">
-            About
+        <Link href="/showcase">
+          <Button colorScheme={pathname === "/showcase" ? "yellow" : "gray"} variant="ghost">
+            Showcase
           </Button>
         </Link>
-        <Link href="/contact">
-          <Button colorScheme={pathname === "/contact" ? "teal" : "gray"} variant="ghost">
-            Contact
+        <Link href="/comingsoon">
+          <Button colorScheme={pathname === "/comingsoon" ? "purple" : "gray"} variant="ghost">
+            Coming Soon
+          </Button>
+        </Link>
+        <Link href="/about">
+          <Button colorScheme={pathname === "/about" ? "purple" : "gray"} variant="ghost">
+            About
           </Button>
         </Link>
       </Box>
@@ -64,14 +69,19 @@ const Navbar = () => {
                 Home
               </Button>
             </Link>
-            <Link href="/about" onClick={onClose}>
+            <Link href="/showcase" onClick={onClose}>
               <Button w="100%" variant="ghost" mb={2}>
-                About
+                Showcase
               </Button>
             </Link>
-            <Link href="/contact" onClick={onClose}>
+            <Link href="/comingsoon" onClick={onClose}>
               <Button w="100%" variant="ghost">
-                Contact
+                Coming Soon
+              </Button>
+            </Link>
+            <Link href="/about" onClick={onClose}>
+              <Button w="100%" variant="ghost">
+                About
               </Button>
             </Link>
           </DrawerBody>

@@ -1,4 +1,3 @@
-// src/components/shared/Providers.tsx
 "use client";
 import { chakraTheme, chakraThemeConfig } from "@/consts/chakra";
 import { ChakraProvider, ColorModeScript } from "@chakra-ui/react";
