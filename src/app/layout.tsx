@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import { Providers } from "@/components/shared/Providers";
 import Navbar from "@/components/shared/Navbar";
-import { ThirdwebProvider } from "thirdweb/react"; //needed?
+import { ThirdwebProvider } from "@/consts/thirdweb";
 
 export const metadata: Metadata = {
   title: "Film-Legion Beta",
@@ -19,7 +19,9 @@ export default function RootLayout({
       <body style={{ paddingBottom: "100px" }}>
         <Providers>
           <Navbar />
+        <ThirdwebProvider>
           {children}
+          </ThirdwebProvider>
         </Providers>
       </body>
     </html>

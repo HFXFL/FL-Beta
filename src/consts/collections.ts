@@ -1,21 +1,29 @@
+export const PROJECT_ADDRESS = "0x2d0126336b465165CaaE93e9Ed543CfaB7e039E1";
+export const ERC_ADDRESS = "0x9FCdA91628aB229588E60F6b507527b0d6180354";
+
+
+
+
+
+
 export const collections = [
   {
     title: "Collection 1",
     links: [
-      "https://res.cloudinary.com/ddyecvz0i/image/upload/v1668347132/FL/ipfs-react-tutorial-examples_fwfkbn.png",
-      "https://res.cloudinary.com/ddyecvz0i/image/upload/v1668201515/FL/ScanFade_gecci8.jpg",
-      "https://res.cloudinary.com/ddyecvz0i/image/upload/v1677090721/FL/BG_Mobile_pfiskh.png",
-      "https://res.cloudinary.com/ddyecvz0i/image/upload/v1685040865/OverComplicated_Cyberpunk_Dystopian_Album_Cover_Rock_and_Roll_M_9189dd6d-b1cb-4878-a29a-f3b7a3a1ec1e_jbilqa.png",
-    ],
+      "https://QmS6yerUjJ4NeTDkSJcZLPdeRWsFj7gMevhCgd6qutoJQ3.ipfscdn.io/ipfs",
+      "ipfs://QmRAg1btkThR1UoWXLtPrapxLmhe416B44o63nA7stH8GA",
+      "ipfs://QmNx2nSm9jHEx9huWSQbL7Le8hawVeR9pBps3xpyHC9Bjv",
+      "ipfs://QmRAg1btkThR1UoWXLtPrapxLmhe416B44o63nA7stH8GA"
+    ]
   },
-  // {
-  //   title: "Collection 2",
-  //   links: [
-  //     "https://res.cloudinary.com/ddyecvz0i/image/upload/v1668347132/FL/ipfs-react-tutorial-examples_fwfkbn.png",
-  //     "https://res.cloudinary.com/ddyecvz0i/image/upload/v1668201515/FL/ScanFade_gecci8.jpg",
-  //     "https://res.cloudinary.com/ddyecvz0i/image/upload/v1677090721/FL/BG_Mobile_pfiskh.png",
-  //     "https://res.cloudinary.com/ddyecvz0i/image/upload/v1685040865/OverComplicated_Cyberpunk_Dystopian_Album_Cover_Rock_and_Roll_M_9189dd6d-b1cb-4878-a29a-f3b7a3a1ec1e_jbilqa.png",
-  //   ],
-  // },
-  
+  {
+    title: "Collection 2",
+    links: [
+      "ipfs://QmNx2nSm9jHEx9huWSQbL7Le8hawVeR9pBps3xpyHC9Bjv",
+      "ipfs://QmRAg1btkThR1UoWXLtPrapxLmhe416B44o63nA7stH8GA",
+      "ipfs://QmNx2nSm9jHEx9huWSQbL7Le8hawVeR9pBps3xpyHC9Bjv",
+      "ipfs://QmRAg1btkThR1UoWXLtPrapxLmhe416B44o63nA7stH8GA"
+    ]
+  },
+  // Add more collections as needed
 ];
