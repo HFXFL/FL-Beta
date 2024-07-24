@@ -10,14 +10,50 @@ export const collections = [
   {
     title: "Collection 1",
     links: [
-      "https://QmS6yerUjJ4NeTDkSJcZLPdeRWsFj7gMevhCgd6qutoJQ3.ipfscdn.io/ipfs",
+      "ipfs://QmSkCojUZ2vu2oXiQdjRYvfoHT1qmT9cTMkiCJwyK2PegH",
+      "ipfs://Qmeap2shXfJyifmfk2UauVxZFezunCEYNgwd6qYgMQ6bqb",
+      "ipfs://QmXQp77VMvVTqjzJz1YhVWx2BoW3ZFdgxUZWRusGUSyTjx",
+      "ipfs://QmRAg1btkThR1UoWXLtPrapxLmhe416B44o63nA7stH8GA"
+    ]
+  },
+  {
+    title: "Collection 2",
+    links: [
+      "ipfs://QmNx2nSm9jHEx9huWSQbL7Le8hawVeR9pBps3xpyHC9Bjv",
       "ipfs://QmRAg1btkThR1UoWXLtPrapxLmhe416B44o63nA7stH8GA",
       "ipfs://QmNx2nSm9jHEx9huWSQbL7Le8hawVeR9pBps3xpyHC9Bjv",
       "ipfs://QmRAg1btkThR1UoWXLtPrapxLmhe416B44o63nA7stH8GA"
     ]
   },
   {
-    title: "Collection 2",
+    title: "Collection 3",
+    links: [
+      "ipfs://QmNx2nSm9jHEx9huWSQbL7Le8hawVeR9pBps3xpyHC9Bjv",
+      "ipfs://QmRAg1btkThR1UoWXLtPrapxLmhe416B44o63nA7stH8GA",
+      "ipfs://QmNx2nSm9jHEx9huWSQbL7Le8hawVeR9pBps3xpyHC9Bjv",
+      "ipfs://QmRAg1btkThR1UoWXLtPrapxLmhe416B44o63nA7stH8GA"
+    ]
+  },
+  {
+    title: "Collection 4",
+    links: [
+      "ipfs://QmNx2nSm9jHEx9huWSQbL7Le8hawVeR9pBps3xpyHC9Bjv",
+      "ipfs://QmRAg1btkThR1UoWXLtPrapxLmhe416B44o63nA7stH8GA",
+      "ipfs://QmNx2nSm9jHEx9huWSQbL7Le8hawVeR9pBps3xpyHC9Bjv",
+      "ipfs://QmRAg1btkThR1UoWXLtPrapxLmhe416B44o63nA7stH8GA"
+    ]
+  },
+  {
+    title: "Collection 5",
+    links: [
+      "ipfs://QmNx2nSm9jHEx9huWSQbL7Le8hawVeR9pBps3xpyHC9Bjv",
+      "ipfs://QmRAg1btkThR1UoWXLtPrapxLmhe416B44o63nA7stH8GA",
+      "ipfs://QmNx2nSm9jHEx9huWSQbL7Le8hawVeR9pBps3xpyHC9Bjv",
+      "ipfs://QmRAg1btkThR1UoWXLtPrapxLmhe416B44o63nA7stH8GA"
+    ]
+  },
+  {
+    title: "Collection 6",
     links: [
       "ipfs://QmNx2nSm9jHEx9huWSQbL7Le8hawVeR9pBps3xpyHC9Bjv",
       "ipfs://QmRAg1btkThR1UoWXLtPrapxLmhe416B44o63nA7stH8GA",
